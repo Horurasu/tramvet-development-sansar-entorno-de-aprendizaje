@@ -2,5 +2,4 @@
 
 ## EQUIPO PROGRAMACION SANSAR
 
->  Ulises Ferrusca Jimenez
->  Maria Fernanda Sanchez Aguilar 
+-  Maria Fernanda Sanchez Aguilar
