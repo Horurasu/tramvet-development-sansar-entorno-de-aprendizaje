@@ -22,7 +22,7 @@
 Este software busca eliminar barreras digitales y lingüísticas, ofreciendo:
 
 - Herramientas avanzadas de personalización de avatares.
-- Integración completa de la Lengua de Señas Mexicana (LSM).
+- Integración de la Lengua de Señas Mexicana (LSM).
 - Promoción de la diversidad cultural y lingüística de la comunidad sorda.
 
 Nuestra visión es transformar la interacción digital, creando un espacio donde la inclusión es más que un principio; es una realidad palpable.
@@ -65,9 +65,15 @@ Después de la instalación, personaliza tu configuración durante el primer ini
 
 En el contexto de la **Programación Estructurada**, los estudiantes explorarán los principios fundamentales de la codificación organizada y eficiente. Temas como control de flujo, funciones, estructuras de datos y algoritmos serán abordados con aplicaciones prácticas en el diseño y desarrollo de programas dentro del ámbito de la robótica.
 
-### Cinemática de Mecanismos
+### Visión
 
-La **Cinemática de Mecanismos** se enfoca en el estudio del movimiento de sistemas mecánicos en relación con la programación de robots. Los estudiantes aprenderán a diseñar y analizar el movimiento de robots, considerando aspectos de cinemática directa e inversa, cruciales para la programación precisa y eficiente de robots.
+El programa se centra en enseñar de manera didáctica y sencilla la materia de programación estructurada. La idea es ofrecer una introducción a los estudiantes que facilite su comprensión sin ser excesivamente metódica, enfocándose en una enseñanza más interactiva. Los temas que abarca la asignatura y que se desarrollan son las estructuras secuenciales, condicionales y repetitivas. Se plantea que cualquier programa puede ser escrito utilizando únicamente estas tres estructuras fundamentales.
+#### Estructura Secuencial
+Esta estructura está formada por una secuencia de instrucciones del lenguaje de programación o funciones definidas por el programador que se ejecutan de manera lineal, una tras otra
+#### Estructura Condicional
+Es aquella que ejecuta un bloque de código si se cumple una determinada condición booleana. Permite tomar decisiones en el flujo del programa.
+#### Estructura Iterativa
+Es aquella que repite un bloque de código múltiples veces siempre que se cumpla una condición booleana. Facilitando la ejecución repetitiva de instrucciones.
 
 ## Lengua de Señas Mexicana (LSM)
 
@@ -86,7 +92,7 @@ Personaliza tu avatar para que use señas específicas, ofreciendo una forma ún
 "Inclusión Virtual Plus" está comprometido con la accesibilidad, proporcionando:
 
 - Lectores de pantalla.
-- Controles de voz y teclado.
+- Controles de voz
 - Ajustes de contraste.
 
 ### Adaptabilidad a Diversas Plataformas
