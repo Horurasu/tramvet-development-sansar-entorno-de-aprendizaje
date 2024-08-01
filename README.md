@@ -4,6 +4,8 @@
 -  Samantha Vianney Almaza Bocanegra
 -  Adrian Dolores Sanchez Rios
 -  Mauricio Mosqueda Martínez
+-  Ludwin Manuel Mendoza Delgadillo
+-  Nancy Alejandra Tovar Perez
 
 ![Logo](https://www.sansar.com/assets/images/homepage/Logo_Small.svg)
 ## Indice
