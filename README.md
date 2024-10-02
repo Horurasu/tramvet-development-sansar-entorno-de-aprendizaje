@@ -13,9 +13,16 @@
 - [Sansar](#sansar)
 - [Instalación en Sansar](#instalación-en-sansar)
 - [Enfoque](#enfoque)
+- [Arquitectura de Sansar](#arquitectura-de-sansar)
+- [Diseño de Espacios](#diseño-de-espacios)
 - [Lengua de Señas Mexicana (LSM)](#lengua-de-señas-mexicana-lsm)
 - [Accesibilidad e Inclusión](#accesibilidad-e-inclusión)
+- [Iconografía](#iconografía)
+- [Aspectos Visuales](#aspectos-visuales)
+- [Exportación de Archivos](#exportación-de-archivos)
+- [Recomendaciones de Diseño](#recomendaciones-de-diseño)
 - [Movmi](#movmi)
+- [Licencia](#licencia)
 
 ## Introducción
 
@@ -27,15 +34,17 @@ Este software busca eliminar barreras digitales y lingüísticas, ofreciendo:
 - Integración de la Lengua de Señas Mexicana (LSM).
 - Promoción de la diversidad cultural y lingüística de la comunidad sorda.
 
-Nuestra visión es transformar la interacción digital, creando un espacio donde la inclusión es más que un principio; es una realidad palpable.
+Nuestra visión es transformar la interacción digital, creando un espacio donde la inclusión no sea solo un principio, sino una realidad palpable y cotidiana. Queremos que cada usuario tenga la posibilidad de explorar, aprender y colaborar en un entorno virtual amigable y accesible para todos.
 
 ### Público Objetivo
 
-Diseñado para alumnos de la Ingenieria en Robotica Computacional, con un enfoque especial en la inclusión de personas que utilizan LSM y aquellos que se benefician de funciones de accesibilidad.
+El proyecto está diseñado principalmente para alumnos de la **Ingeniería en Robótica Computacional**, y tiene un enfoque especial en la inclusión de personas que utilizan **Lengua de Señas Mexicana (LSM)** y aquellas que se benefician de las funciones de accesibilidad. Creemos en el poder de la tecnología como herramienta para la educación y la inclusión, y queremos asegurar que todos los estudiantes tengan las mismas oportunidades de aprender y desarrollarse.
 
 ## Sansar
 
-Una plataforma de realidad virtual y aumentada que permite a los usuarios crear y explorar mundos virtuales tridimensionales. Desarrollada por Linden Lab, ofrece un espacio creativo donde los usuarios pueden colaborar y disfrutar de experiencias interactivas.
+**Sansar** es una plataforma de realidad virtual y aumentada que permite a los usuarios crear, personalizar y explorar mundos tridimensionales inmersivos. Desarrollada por **Linden Lab**, Sansar ofrece un espacio creativo donde los usuarios pueden colaborar, aprender y disfrutar de experiencias interactivas ricas y significativas.
+
+Sansar permite a los usuarios interactuar entre sí, construir sus propios espacios y compartir contenido. Este proyecto utiliza Sansar como la plataforma principal para crear un entorno de aprendizaje interactivo e inclusivo, aprovechando sus capacidades para representar entornos virtuales complejos que pueden ser explorados y manipulados por los estudiantes.
 
 
 
@@ -45,66 +54,115 @@ Una plataforma de realidad virtual y aumentada que permite a los usuarios crear 
 
 Antes de instalar Sansar, asegúrate de que tu sistema cumpla con los siguientes requisitos:
 
-- **Sistema Operativo:** Windows 10, macOS 11.0 o superior, Linux (compatible con distribuciones principales).
-- **Procesador:** Intel Core i5 o equivalente.
-- **Memoria RAM:** 8 GB o más.
-- **Almacenamiento:** 20 GB de espacio libre.
-- **Tarjeta Gráfica:** Compatible con DirectX 11.
+- **Sistema Operativo:** Windows 10, macOS 11.0 o superior, o una versión compatible de Linux que sea compatible con las distribuciones principales.
+- **Procesador:** Intel Core i5 o un procesador equivalente de alto rendimiento.
+- **Memoria RAM:** 8 GB o más, para asegurar que las aplicaciones puedan ejecutarse sin problemas, especialmente en entornos complejos.
+- **Almacenamiento:** Al menos 20 GB de espacio libre para instalar Sansar y cualquier contenido adicional que desees descargar.
+- **Tarjeta Gráfica:** Compatible con **DirectX 11**, preferiblemente de gama media o alta para aprovechar al máximo las capacidades gráficas de Sansar.
+
 
 ### Proceso de Instalación
 
-Consulta la "Guía de Instalación" incluida con el software para una guía paso a paso.
- - [Guía de Instalación](https://docs.sansar.com/untitled/sansarbasics/installationandcompatibility/install)
+Para instalar Sansar, sigue los pasos descritos en la "Guía de Instalación" proporcionada junto con el software. Esta guía contiene instrucciones detalladas que te ayudarán a instalar el programa y configurarlo correctamente en tu sistema.
+- [Guía de Instalación](https://docs.sansar.com/untitled/sansarbasics/installationandcompatibility/install)
+
 
 ### Configuración Inicial
 
-Después de la instalación, personaliza tu configuración durante el primer inicio siguiendo las instrucciones en pantalla.
+Una vez completada la instalación, es importante que personalices tu configuración inicial. Durante el primer inicio, Sansar te guiará a través de un asistente que te permitirá ajustar aspectos como la calidad gráfica, los controles, y la configuración de audio para asegurar una experiencia óptima según las capacidades de tu sistema y tus preferencias personales.
 
 
 ## Enfoque
 
 ### Programación Estructurada
 
-En el contexto de la **Programación Estructurada**, los estudiantes explorarán los principios fundamentales de la codificación organizada y eficiente. Temas como control de flujo, funciones, estructuras de datos y algoritmos serán abordados con aplicaciones prácticas en el diseño y desarrollo de programas dentro del ámbito de la robótica.
+En el contexto de la **Programación Estructurada**, los estudiantes explorarán los principios fundamentales para escribir código limpio, organizado y eficiente. La programación estructurada se basa en el uso de estructuras de control bien definidas, tales como secuencias, condicionales e iteraciones, para dividir un problema complejo en pequeñas partes manejables.
+
+Los principales temas que serán abordados incluyen:
+
+- **Control de Flujo**: Cómo dirigir la ejecución del programa para cumplir con los requerimientos de la lógica deseada.
+- **Funciones y Modularidad**: Dividir un programa en funciones reutilizables para mejorar la claridad y la reutilización del código.
+- **Estructuras de Datos y Algoritmos**: Trabajar con diferentes tipos de estructuras de datos y aplicar algoritmos adecuados según el problema a resolver.
+
+Este enfoque práctico permitirá a los estudiantes aplicar estos principios en el diseño y desarrollo de programas dentro del ámbito de la robótica y la simulación.
 
 ### Visión
 
-El programa se centra en enseñar de manera didáctica y sencilla la materia de programación estructurada. La idea es ofrecer una introducción a los estudiantes que facilite su comprensión sin ser excesivamente metódica, enfocándose en una enseñanza más interactiva. Los temas que abarca la asignatura y que se desarrollan son las estructuras secuenciales, condicionales y repetitivas. Se plantea que cualquier programa puede ser escrito utilizando únicamente estas tres estructuras fundamentales.
+El objetivo de este módulo es enseñar de manera didáctica y sencilla los conceptos de la programación estructurada, de forma que los estudiantes puedan entender la lógica detrás de la construcción de programas sin ser abrumados con detalles excesivamente técnicos al inicio. Nos enfocamos en una enseñanza interactiva y práctica que permita a los estudiantes aprender haciendo.
+
 #### Estructura Secuencial
-Esta estructura está formada por una secuencia de instrucciones del lenguaje de programación o funciones definidas por el programador que se ejecutan de manera lineal, una tras otra
+La **estructura secuencial** está formada por una serie de instrucciones que se ejecutan en el orden en el cual fueron escritas, de forma lineal y sin saltos. Este tipo de estructura se utiliza para ejecutar una serie de pasos de manera ordenada y lógica.
+
 #### Estructura Condicional
-Es aquella que ejecuta un bloque de código si se cumple una determinada condición booleana. Permite tomar decisiones en el flujo del programa.
+La **estructura condicional** permite al programa tomar decisiones. Estas decisiones están basadas en evaluaciones booleanas (verdadero o falso) y permiten que el flujo del programa cambie dependiendo de las circunstancias. Esto es fundamental para que un programa sea interactivo y pueda responder de manera dinámica a diferentes situaciones.
+
 #### Estructura Iterativa
-Es aquella que repite un bloque de código múltiples veces siempre que se cumpla una condición booleana. Facilitando la ejecución repetitiva de instrucciones.
+La **estructura iterativa** o bucle se utiliza para repetir un bloque de código un número determinado de veces o mientras se cumpla una determinada condición. Esto es especialmente útil para automatizar tareas repetitivas, como la lectura de una serie de datos o la simulación de un proceso.
 
-## Lengua de Señas Mexicana (LSM)
+## Arquitectura de Sansar
 
-### Integración de LSM en la Interfaz
+### Diseño del Espacio
+- **Escenarios Circulares**: Utilizamos escenarios circulares para proporcionar una navegación más amigable y efectiva en entornos de realidad virtual. La funcionalidad de los modelos curvos o circulares es fundamental ya que permiten una interacción más intuitiva para los usuarios. 
+- **Pasillos Curvos**: Los pasillos tienen curvas que guían a los usuarios de manera intuitiva a través del espacio. Estas curvas pueden ser más efectivas al visualizar el entorno en realidad virtual, facilitando la navegación.
+- **Colores Neutros e Iluminación Cálida**: Se emplean colores neutros y una iluminación cálida para crear un ambiente agradable y acogedor.
+- **Vistas Coloridas para Ejercicios**: Las vistas están diseñadas para motivar a los usuarios durante los ejercicios, utilizando colores que generen un ambiente motivador.
 
-"Inclusión Virtual Plus" incorpora LSM en su interfaz, permitiendo que los usuarios activen esta función para interpretar y presentar mensajes en LSM.
+### Materiales Utilizados
+Todo el material se conceptualiza para el diseño del mundo en Sansar. Los archivos se exportan en los formatos **FBX** y **OBJ**, mientras que la texturación se realiza con **Autodesk Maya**.
 
-### Avatar con Señas Personalizadas
+![Arquitectura de Sansar](imagenes/sala_completa.png)
 
-Personaliza tu avatar para que use señas específicas, ofreciendo una forma única y auténtica de expresión en lenguaje de señas.
+## Diseño de Espacios
 
-## Accesibilidad e Inclusión
+### Sala Principal
+- **Puertas y Accesos**: La sala principal contiene puertas de entrada a los diferentes niveles. Estas puertas están diseñadas para aprovechar mejor el espacio, utilizando formas adaptables como la media píldora.
+- **Funcionalidad**: La sala principal será el lugar donde los usuarios iniciarán las tareas o actividades, sirviendo como un punto de partida para el resto del mundo virtual.
 
-### Funcionalidades para Usuarios con Discapacidad
+![Diseño de la Sala Principal](imagenes/salap.png)
 
-"Inclusión Virtual Plus" está comprometido con la accesibilidad, proporcionando:
+### Sala 01 - Sala de Ejercicios
+- **Forma Circular**: La sala de ejercicios tiene una forma circular que permite añadir más niveles y ampliar el diseño. Esto facilita la incorporación de nuevas salas y actividades en el futuro.
+- **Pasillo de Conexión**: Pasillo que conecta la Sala Principal con las otras salas de ejercicios, permitiendo un flujo continuo en la experiencia del usuario.
 
-- Lectores de pantalla.
-- Controles de voz
-- Ajustes de contraste.
+![Diseño de la Sala de Ejercicios](imagenes/Puertas.png)
+![Diseño de la Sala de Ejercicios](imagenes/toma1.png)
 
-### Adaptabilidad a Diversas Plataformas
+### Psicología del Diseño
+- **Formas Circulares**: Las formas circulares ayudan a aprovechar mejor el espacio, facilitando la comprensión y navegación dentro del entorno. Según la psicología de las formas, los círculos son adaptables y ayudan a crear un espacio amigable.
+- **Geometrías Primitivas**: El uso de geometrías primitivas no solo optimiza el espacio, sino que también reduce la densidad poligonal, haciendo los archivos más ligeros y eficientes para ser procesados en VR.
 
-Compatible con PC, dispositivos móviles y realidad virtual, asegurando una experiencia inclusiva para todos.
+## Iconografía
 
-## Movmi
+### Iconografía en el Espacio
+- **Espacio de Iconografía y LSM**: Se ha diseñado un espacio donde se utilizarán íconos cuadrados curvos y puertas en forma de media píldora para mantener un equilibrio visual.
+- **Iconografía para Ejercicios**: Se emplean íconos simples y colores contrastantes para resaltar la información importante, tanto en movimiento como estática. Los iconos utilizados deben ser fáciles de entender y claros para transmitir si las acciones son correctas o incorrectas.
 
-Movmi es una herramienta de alta calidad para animadores del cuerpo humano, facilitando la captura de movimiento a partir de videos 2D. Compatible con Sansar, permite exportar archivos FBX sin daños, facilitando la creación de personajes y animaciones accesibles.
-![Movmi](https://www.dealfuel.com/wp-content/uploads/2023/11/movmi-feature-image-450x281.jpg)
+![Iconografía](imagenes/iconografia.png)
+
+## Aspectos Visuales
+
+### Funcionalidad y Estética
+- **Curvas y Modelos Circulares**: Los modelos curvos y circulares mejoran la eficiencia en la construcción y el aprovechamiento del espacio.
+- **Bajo Costo Computacional**: La baja densidad poligonal facilita el procesamiento de los archivos en VR, asegurando que la experiencia del usuario sea fluida y sin interrupciones.
+
+### Bloques y Ensamblaje
+- **Bloques Neutros y de Colores**: Se emplean bloques neutros y de colores para la construcción de diferentes ejercicios. El diseño tipo "Tetris" ofrece múltiples opciones de ensamblaje, lo cual permite una mayor flexibilidad y creatividad en el diseño de los ejercicios.
+
+![Bloques de Colores](imagenes/colores.png)
+![Bloques Neutros](imagenes/neutro.png)
+
+## Exportación de Archivos
+- **Formatos**: Los modelos se exportan en **FBX** y **OBJ** para su uso en el mundo virtual.
+- **Texturización**: Se utiliza **Autodesk Maya** para la texturización de los materiales, asegurando un acabado visual atractivo.
+
+---
+
+## Recomendaciones de Diseño
+- **Pasillos Curvos**: Guían de manera natural al usuario y mejoran la orientación en el espacio.
+- **Colores Neutros e Iluminación Cálida**: Mejora la experiencia visual, creando un ambiente relajante y cómodo.
+- **Iconos Contrastantes**: Ayudan a resaltar la información esencial, facilitando la comprensión de las instrucciones para los ejercicios.
+
+<!--Para más detalles sobre cómo colaborar en este proyecto, consulta nuestra [Guía de Contribución](ruta/a/la/guia_contribucion.md).-->
 
 
 
