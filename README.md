@@ -13,6 +13,7 @@
 ## Indice
 - [Introducción](#introducción)
 - [Sansar](#sansar)
+- [Webcam Motion Capture](#webcam-motion-capture)
 - [Instalación en Sansar](#instalación-en-sansar)
 - [Enfoque](#enfoque)
 - [Arquitectura de Sansar](#arquitectura-de-sansar)
@@ -46,7 +47,8 @@ El proyecto está diseñado principalmente para alumnos de la **Ingeniería en R
 
 Sansar permite a los usuarios interactuar entre sí, construir sus propios espacios y compartir contenido. Este proyecto utiliza Sansar como la plataforma principal para crear un entorno de aprendizaje interactivo e inclusivo, aprovechando sus capacidades para representar entornos virtuales complejos que pueden ser explorados y manipulados por los estudiantes.
 
-
+## Webcam Motion Capture
+![Webcam Motion Capture](imagenes/webcam_portada.png)
 
 ## Instalación en Sansar
 
@@ -148,7 +150,6 @@ Todo el material se conceptualiza para el diseño del mundo en Sansar. Los archi
 ### Bloques y Ensamblaje
 - **Bloques Neutros y de Colores**: Se emplean bloques neutros y de colores para la construcción de diferentes ejercicios. El diseño tipo "Tetris" ofrece múltiples opciones de ensamblaje, lo cual permite una mayor flexibilidad y creatividad en el diseño de los ejercicios.
 
-![Bloques de Colores](imagenes/colores.png)
 ![Bloques Neutros](imagenes/neutro.png)
 
 
