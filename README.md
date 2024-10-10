@@ -171,14 +171,22 @@ El siguiente apartado proporciona detalles sobre los **scripts** que se utilizan
 ### Portales
 
 Los **portales** son elementos interactivos que permiten a los usuarios trasladarse de un lugar a otro dentro del mundo virtual de Sansar-Mundo. El script para los portales gestiona la detección del usuario y la teleportación.
-
+![Puerta Script y Componentes](imagenes/puerta_script.png)
 #### Script:
+![Puerta Script](imagenes/puerta_script1-2.png)
+![Puerta Script](imagenes/puerta_script3-4.png)
+
+##### Puerta
+La puerta fue descargada de la tienda de sansar
+![Puerta Tienda](imagenes/tienda_puerta.png)
 
 ### Luces
 
 Las **luces** son fundamentales para la ambientación del entorno. Este script permite configurar luces dinámicas que pueden cambiar de color, intensidad o activarse/desactivarse bajo ciertas condiciones.
 
-#### Script:
+#### Componentes:
+![Luces](imagenes/inventario.png)
+![Luces](imagenes/system_light.png)
 
 ### Objetos
 
@@ -187,6 +195,7 @@ Los **objetos** en Sansar pueden ser interactivos y dinámicos. Este script perm
 ## Exportación de Archivos
 - **Formatos**: Los modelos se exportan en **FBX** y **OBJ** para su uso en el mundo virtual.
 - **Texturización**: Se utiliza **Autodesk Maya** para la texturización de los materiales, asegurando un acabado visual atractivo.
+
 ![Exportacion](imagenes/impor_red.png)
 
 ### Exportar Objetos (3D)
