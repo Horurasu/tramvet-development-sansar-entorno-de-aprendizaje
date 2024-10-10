@@ -1,11 +1,13 @@
 # "Iniciando la inmersión Digital: Desarrollo de un Entorno de Aprendizaje Inlcusivo y Amigable para Estudiantes en un Mundo Virtual"
 
--  Maria Fernanda Sanchez Aguilar
--  Samantha Vianney Almaza Bocanegra
--  Adrian Dolores Sanchez Rios
--  Mauricio Mosqueda Martínez
--  Ludwin Manuel Mendoza Delgadillo
--  Nancy Alejandra Tovar Perez
+-  Maria Fernanda Sanchez Aguilar (Programador)
+-  Ulises Ferrusca Jimenez (Programador)
+-  Samantha Vianney Almaza Bocanegra (Programador)
+-  Adrian Dolores Sanchez Rios (Programador)
+-  Nancy Alejandra Tovar Perez (Animador)
+-  Mauricio Mosqueda Martínez (Animador)
+-  Ludwin Manuel Mendoza Delgadillo (Animador)
+
 
 ![Logo](https://www.sansar.com/assets/images/homepage/Logo_Small.svg)
 ## Indice
@@ -15,13 +17,10 @@
 - [Enfoque](#enfoque)
 - [Arquitectura de Sansar](#arquitectura-de-sansar)
 - [Diseño de Espacios](#diseño-de-espacios)
-- [Lengua de Señas Mexicana (LSM)](#lengua-de-señas-mexicana-lsm)
-- [Accesibilidad e Inclusión](#accesibilidad-e-inclusión)
 - [Iconografía](#iconografía)
 - [Aspectos Visuales](#aspectos-visuales)
 - [Exportación de Archivos](#exportación-de-archivos)
 - [Recomendaciones de Diseño](#recomendaciones-de-diseño)
-- [Movmi](#movmi)
 - [Scripts](#scripts)
 - [Licencia](#licencia)
 
