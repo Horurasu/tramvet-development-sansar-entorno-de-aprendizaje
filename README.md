@@ -151,11 +151,7 @@ Todo el material se conceptualiza para el diseño del mundo en Sansar. Los archi
 ![Bloques de Colores](imagenes/colores.png)
 ![Bloques Neutros](imagenes/neutro.png)
 
-## Exportación de Archivos
-- **Formatos**: Los modelos se exportan en **FBX** y **OBJ** para su uso en el mundo virtual.
-- **Texturización**: Se utiliza **Autodesk Maya** para la texturización de los materiales, asegurando un acabado visual atractivo.
 
----
 
 ## Recomendaciones de Diseño
 - **Pasillos Curvos**: Guían de manera natural al usuario y mejoran la orientación en el espacio.
@@ -166,6 +162,11 @@ Todo el material se conceptualiza para el diseño del mundo en Sansar. Los archi
 ## Scripts
 
 El siguiente apartado proporciona detalles sobre los **scripts** que se utilizan en el mundo virtual de Sansar. Estos scripts permiten la creación e interacción con elementos del entorno, desde portales hasta luces, objetos, audio, y modelos 3D. Cada subsección explica cómo funcionan y cómo pueden ser implementados dentro del proyecto.
+
+#### Exportar Scripts
+
+![Exportar Scripts](imagenes/import_Script.png)
+![Script](imagenes/script.png)
 
 ### Portales
 
@@ -183,22 +184,31 @@ Las **luces** son fundamentales para la ambientación del entorno. Este script p
 
 Los **objetos** en Sansar pueden ser interactivos y dinámicos. Este script permite mover, rotar o escalar objetos en respuesta a las acciones del jugador.
 
+## Exportación de Archivos
+- **Formatos**: Los modelos se exportan en **FBX** y **OBJ** para su uso en el mundo virtual.
+- **Texturización**: Se utiliza **Autodesk Maya** para la texturización de los materiales, asegurando un acabado visual atractivo.
+![Exportacion](imagenes/impor_red.png)
+
 ### Exportar Objetos (3D)
 
 Para exportar objetos creados en herramientas de modelado 3D como Blender o Autodesk Maya y utilizarlos en Sansar
-
+![Exportar 3D Model](imagenes/import_3d.png)
 #### Pasos para exportar:
 - Modelado: Crea o modifica el objeto 3D.
 - Texturización: Asegúrate de aplicar correctamente las texturas y materiales.
 - Exportación: Exporta el modelo en formato FBX o OBJ.
 - Importación a Sansar: Sube el archivo en el editor de Sansar, ajustando las propiedades como escala y colisiones.
+![3D Model](imagenes/3d_model.png)
 
 ### Exportar Audio
 
 Los audios pueden mejorar la experiencia inmersiva añadiendo efectos sonoros o música de fondo. Este script permite reproducir sonidos cuando el jugador entra en una zona específica o cuando interactúa con un objeto.
 
+![Exportar Audio](imagenes/import_Audio.png)
+
 #### Pasos:
 - Carga los archivos de audio en formato WAV o MP3.
+![Audio](imagenes/audio.png)
 
 
 <!--Para más detalles sobre cómo colaborar en este proyecto, consulta nuestra [Guía de Contribución](ruta/a/la/guia_contribucion.md).-->
