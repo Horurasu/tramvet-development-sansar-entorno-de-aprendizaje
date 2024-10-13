@@ -48,7 +48,12 @@ El proyecto está diseñado principalmente para alumnos de la **Ingeniería en R
 Sansar permite a los usuarios interactuar entre sí, construir sus propios espacios y compartir contenido. Este proyecto utiliza Sansar como la plataforma principal para crear un entorno de aprendizaje interactivo e inclusivo, aprovechando sus capacidades para representar entornos virtuales complejos que pueden ser explorados y manipulados por los estudiantes.
 
 ## Webcam Motion Capture
+
+Webcam Motion Capture es una tecnología que permite capturar el movimiento de una persona utilizando una webcam estándar, en lugar de equipos de captura de movimiento especializados y costosos. Funciona mediante el uso de software avanzado que rastrea los puntos de referencia clave en el cuerpo de la persona (como las articulaciones) para detectar y registrar los movimientos.
+
 ![Webcam Motion Capture](imagenes/webcam_portada.png)
+Este sistema es popular para proyectos de animación, videojuegos y creación de avatares en tiempo real, donde los movimientos humanos pueden ser transferidos a personajes virtuales. La tecnología utiliza algoritmos de visión por computadora y, a menudo, se apoya en inteligencia artificial para mejorar la precisión del seguimiento. Aunque no es tan precisa como los sistemas de captura de movimiento basados en trajes con sensores, es más accesible y menos costosa, lo que la hace ideal para desarrolladores independientes y proyectos de bajo presupuesto.
+- [Pagina](https://webcammotioncapture.info/)
 
 ## Instalación en Sansar
 
