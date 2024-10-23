@@ -222,7 +222,7 @@ Los audios pueden mejorar la experiencia inmersiva añadiendo efectos sonoros o 
 ![Exportar Audio](imagenes/import_Audio.png)
 
 #### Pasos:
-- Carga los archivos de audio en formato WAV o MP3.
+- Carga los archivos de audio en formato WAV o MP3...
 ![Audio](imagenes/audio.png)
 
 
