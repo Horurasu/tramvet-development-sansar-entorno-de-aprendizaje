@@ -1,27 +1,28 @@
 # "Iniciando la inmersión Digital: Desarrollo de un Entorno de Aprendizaje Inlcusivo y Amigable para Estudiantes en un Mundo Virtual"
 
--  Maria Fernanda Sanchez Aguilar
--  Samantha Vianney Almaza Bocanegra
--  Adrian Dolores Sanchez Rios
--  Mauricio Mosqueda Martínez
--  Ludwin Manuel Mendoza Delgadillo
--  Nancy Alejandra Tovar Perez
+-  Maria Fernanda Sanchez Aguilar (Programador)
+-  Ulises Ferrusca Jimenez (Programador)
+-  Samantha Vianney Almaza Bocanegra (Programador)
+-  Adrian Dolores Sanchez Rios (Programador)
+-  Nancy Alejandra Tovar Perez (Animador)
+-  Mauricio Mosqueda Martínez (Animador)
+-  Ludwin Manuel Mendoza Delgadillo (Animador)
+
 
 ![Logo](https://www.sansar.com/assets/images/homepage/Logo_Small.svg)
 ## Indice
 - [Introducción](#introducción)
 - [Sansar](#sansar)
+- [Webcam Motion Capture](#webcam-motion-capture)
 - [Instalación en Sansar](#instalación-en-sansar)
 - [Enfoque](#enfoque)
 - [Arquitectura de Sansar](#arquitectura-de-sansar)
 - [Diseño de Espacios](#diseño-de-espacios)
-- [Lengua de Señas Mexicana (LSM)](#lengua-de-señas-mexicana-lsm)
-- [Accesibilidad e Inclusión](#accesibilidad-e-inclusión)
 - [Iconografía](#iconografía)
 - [Aspectos Visuales](#aspectos-visuales)
 - [Exportación de Archivos](#exportación-de-archivos)
 - [Recomendaciones de Diseño](#recomendaciones-de-diseño)
-- [Movmi](#movmi)
+- [Scripts](#scripts)
 - [Licencia](#licencia)
 
 ## Introducción
@@ -46,7 +47,13 @@ El proyecto está diseñado principalmente para alumnos de la **Ingeniería en R
 
 Sansar permite a los usuarios interactuar entre sí, construir sus propios espacios y compartir contenido. Este proyecto utiliza Sansar como la plataforma principal para crear un entorno de aprendizaje interactivo e inclusivo, aprovechando sus capacidades para representar entornos virtuales complejos que pueden ser explorados y manipulados por los estudiantes.
 
+## Webcam Motion Capture
 
+Webcam Motion Capture es una tecnología que permite capturar el movimiento de una persona utilizando una webcam estándar, en lugar de equipos de captura de movimiento especializados y costosos. Funciona mediante el uso de software avanzado que rastrea los puntos de referencia clave en el cuerpo de la persona (como las articulaciones) para detectar y registrar los movimientos.
+
+![Webcam Motion Capture](imagenes/webcam_portada.png)
+Este sistema es popular para proyectos de animación, videojuegos y creación de avatares en tiempo real, donde los movimientos humanos pueden ser transferidos a personajes virtuales. La tecnología utiliza algoritmos de visión por computadora y, a menudo, se apoya en inteligencia artificial para mejorar la precisión del seguimiento. Aunque no es tan precisa como los sistemas de captura de movimiento basados en trajes con sensores, es más accesible y menos costosa, lo que la hace ideal para desarrolladores independientes y proyectos de bajo presupuesto.
+- [Pagina](https://webcammotioncapture.info/)
 
 ## Instalación en Sansar
 
@@ -148,19 +155,76 @@ Todo el material se conceptualiza para el diseño del mundo en Sansar. Los archi
 ### Bloques y Ensamblaje
 - **Bloques Neutros y de Colores**: Se emplean bloques neutros y de colores para la construcción de diferentes ejercicios. El diseño tipo "Tetris" ofrece múltiples opciones de ensamblaje, lo cual permite una mayor flexibilidad y creatividad en el diseño de los ejercicios.
 
-![Bloques de Colores](imagenes/colores.png)
 ![Bloques Neutros](imagenes/neutro.png)
 
-## Exportación de Archivos
-- **Formatos**: Los modelos se exportan en **FBX** y **OBJ** para su uso en el mundo virtual.
-- **Texturización**: Se utiliza **Autodesk Maya** para la texturización de los materiales, asegurando un acabado visual atractivo.
 
----
 
 ## Recomendaciones de Diseño
 - **Pasillos Curvos**: Guían de manera natural al usuario y mejoran la orientación en el espacio.
 - **Colores Neutros e Iluminación Cálida**: Mejora la experiencia visual, creando un ambiente relajante y cómodo.
 - **Iconos Contrastantes**: Ayudan a resaltar la información esencial, facilitando la comprensión de las instrucciones para los ejercicios.
+
+
+## Scripts
+
+El siguiente apartado proporciona detalles sobre los **scripts** que se utilizan en el mundo virtual de Sansar. Estos scripts permiten la creación e interacción con elementos del entorno, desde portales hasta luces, objetos, audio, y modelos 3D. Cada subsección explica cómo funcionan y cómo pueden ser implementados dentro del proyecto.
+
+#### Exportar Scripts
+
+![Exportar Scripts](imagenes/import_Script.png)
+![Script](imagenes/script.png)
+
+### Portales
+
+Los **portales** son elementos interactivos que permiten a los usuarios trasladarse de un lugar a otro dentro del mundo virtual de Sansar-Mundo. El script para los portales gestiona la detección del usuario y la teleportación.
+![Puerta Script y Componentes](imagenes/puerta_script.png)
+#### Script:
+![Puerta Script](imagenes/puerta_script1-2.png)
+![Puerta Script](imagenes/puerta_script3-4.png)
+
+##### Puerta
+La puerta fue descargada de la tienda de sansar
+![Puerta Tienda](imagenes/tienda_puerta.png)
+
+### Luces
+
+Las **luces** son fundamentales para la ambientación del entorno. Este script permite configurar luces dinámicas que pueden cambiar de color, intensidad o activarse/desactivarse bajo ciertas condiciones.
+
+#### Componentes:
+![Luces](imagenes/inventario.png)
+![Luces](imagenes/system_light.png)
+
+### Objetos
+
+Los **objetos** en Sansar pueden ser interactivos y dinámicos. Este script permite mover, rotar o escalar objetos en respuesta a las acciones del jugador.
+
+## Exportación de Archivos
+- **Formatos**: Los modelos se exportan en **FBX** y **OBJ** para su uso en el mundo virtual.
+- **Texturización**: Se utiliza **Autodesk Maya** para la texturización de los materiales, asegurando un acabado visual atractivo.
+
+![Exportacion](imagenes/impor_red.png)
+
+### Exportar Objetos (3D)
+
+Para exportar objetos creados en herramientas de modelado 3D como Blender o Autodesk Maya y utilizarlos en Sansar
+![Exportar 3D Model](imagenes/import_3d.png)
+#### Pasos para exportar:
+- Modelado: Crea o modifica el objeto 3D.
+- Texturización: Asegúrate de aplicar correctamente las texturas y materiales.
+- Exportación: Exporta el modelo en formato FBX o OBJ.
+- Importación a Sansar: Sube el archivo en el editor de Sansar, ajustando las propiedades como escala y colisiones.
+![3D Model](imagenes/3d_model.png)
+
+### Exportar Audio
+
+Los audios pueden mejorar la experiencia inmersiva añadiendo efectos sonoros o música de fondo. Este script permite reproducir sonidos cuando el jugador entra en una zona específica o cuando interactúa con un objeto.
+
+![Exportar Audio](imagenes/import_Audio.png)
+
+#### Pasos:
+- Carga los archivos de audio en formato WAV o MP3...
+![Audio](imagenes/audio.png)
+
 
 <!--Para más detalles sobre cómo colaborar en este proyecto, consulta nuestra [Guía de Contribución](ruta/a/la/guia_contribucion.md).-->
 
